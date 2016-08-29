@@ -34,5 +34,8 @@ Le blog est responsive et gere l'affichage sur mobile.
 Les technologies utilisées :
 
   Symfony 3 : Pour l'apprentissage du framework
+  
   Bootstrap : Pour la chartre graphique ainsi que le reponsive
+  
   HTML 5 / CSS 3
+
