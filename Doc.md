@@ -1,6 +1,7 @@
 
 
-DOC
+DOC  SYMFONY
+
 
 Installing & Setting up the Symfony Framework
 
