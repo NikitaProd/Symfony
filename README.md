@@ -38,4 +38,6 @@ Les technologies utilisées :
   Bootstrap : Pour la chartre graphique ainsi que le reponsive
   
   HTML 5 / CSS 3
+  
+  
 
