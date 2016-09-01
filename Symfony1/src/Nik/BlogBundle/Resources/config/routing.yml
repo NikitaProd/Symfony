@@ -1,0 +1,7 @@
+nik_blog_post:
+    resource: "@NikBlogBundle/Resources/config/routing/post.yml"
+    prefix:   /post
+
+nik_blog_homepage:
+    path:     /
+    defaults: { _controller: NikBlogBundle:Default:index }

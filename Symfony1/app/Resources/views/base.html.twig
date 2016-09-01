@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+
+
+    <style>
+
+    body{
+    color: red;
+    margin: 20px;
+    padding: 10px;
+    background-color: #EDEFED;
+}
+
+    H1{
+       font-family: arial;
+       font-size: 50px; 
+    }
+
+    li{
+        font-size: 20px;
+        padding: 5px;
+    }
+
+
+    </style>
+</html>
+
