@@ -13,18 +13,11 @@ Installation de symfony:  http://symfony.com/legacy/doc/getting-started/1_4/fr/0
 
 DOC: http://symfony.com/doc/current/index.html
 
-https://github.com/Simplon-lyon/dev-web/wiki/semaine24
-
-
 
 +  http://symfony.com/doc/current/index.html
 
 
-
-
-
 Blog créer en Symfony 3
-
 
 
 Technologies :
