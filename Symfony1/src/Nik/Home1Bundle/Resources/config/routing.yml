@@ -1,0 +1,3 @@
+nik_home1_homepage:
+    path:     /
+    defaults: { _controller: NikHome1Bundle:Default:index }

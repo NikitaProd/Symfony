@@ -1,3 +1,11 @@
+test:
+    resource: "@TestBundle/Resources/config/routing.yml"
+    prefix:   /
+
+nik_home1:
+    resource: "@NikHome1Bundle/Resources/config/routing.yml"
+    prefix:   /
+
 nik_blog:
     resource: "@NikBlogBundle/Resources/config/routing.yml"
     prefix:   /
