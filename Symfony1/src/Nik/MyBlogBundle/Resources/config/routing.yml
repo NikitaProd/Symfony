@@ -10,9 +10,8 @@ my_blog_page:
     
 
 my_blog_article:
-    path:     /article/{_locale}/{annee}/{slug}.{_format}
-    defaults: { _controller: MyBlogBundle:Public:article, _format: html, _locale: fr }
+    path:     /article/{slug}.{_format}
+    defaults: { _controller: MyBlogBundle:Public:article, _format: html }
     requirements:
-         annee: \d{4}
-         _format: rss|html
-         _locale: fr|en
+         _format: html
+         

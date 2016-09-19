@@ -2,6 +2,11 @@ my_blog:
     resource: "@MyBlogBundle/Resources/config/routing.yml"
     prefix:   /my_blog
 
+my_blog.admin:
+    resource: "@MyBlogBundle/Resources/config/routing_admin.yml"
+    prefix:   /admin/my_blog
+
+
 test:
     resource: "@TestBundle/Resources/config/routing.yml"
     prefix:   /

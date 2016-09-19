@@ -19,16 +19,21 @@ class PublicController extends Controller
 		));
 	}
 
-	function articleAction ($slug, $annee, $_locale, $_format)
-	{
-        return $this->render("MyBlogBundle:Public:article.html.twig", array(
-			'slug' => $slug,
-			'annee' => $annee,
-			'lang' => $_locale,
-			'format' => $_format,
-		));
-	}
+	function articleAction($slug){
+        $article = array(
+			'titre'   => "Titre de l'article",
+			'date'    => new \DateTime(),
+			'contenu' => "Contenu : c'est Cool !",
+			'auteur'  => "Nik",	
+			'token'   =>  $this->getRequest()->query->get('token'),
 
+	);
+
+	return $this->render("MyBlogBundle:Public:article.html.twig", array(
+		'article' => $article,
+
+		));
 }
 
+}
 ?>

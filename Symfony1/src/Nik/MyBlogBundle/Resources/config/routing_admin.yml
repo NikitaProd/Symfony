@@ -1,0 +1,31 @@
+my_blog_article_home:
+    path:     /
+    defaults: { _controller: MyBlogBundle:Admin:index }
+    requirements:
+         _methode: GET
+
+
+
+# Article
+
+my_blog_ajouter_article:
+    path:     /ajouter
+    defaults: { _controller: MyBlogBundle:AdminArticle:ajouter }
+    requirements:
+         _method: GET|POST
+
+
+my_blog_editer_article:
+    path:     /[id]/editer
+    defaults: { _controller: MyBlogBundle:AdminArticle:editer }
+    requirements:
+         id: \d+
+         _method: GET|POST
+
+
+my_blog_supprimer_article:
+    path:     /[id]/supprimer
+    defaults: { _controller: MyBlogBundle:AdminArticle:supprimer }
+    requirements:
+        id: \d+
+        _method: DELETE
