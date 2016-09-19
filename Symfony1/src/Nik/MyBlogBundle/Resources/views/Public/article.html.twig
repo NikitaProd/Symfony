@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+
+    <!-- BODY ---------------------------------->
+
+    <body>
+    <br />
+
+    <H1>{{ slug }}</H1>
+    <br />
+    Langue : {{ lang }}<br />
+    Format : {{ format}}<br />
+    Publié en {{ annee }}<br />
+
+    <a href="{{ path('my_blog_page', { page: annee }) }}">Retoure à la page {{ annee }}</a>
+    
+    <br /><br />
+        
+    <!-- SCRIPT  ----------------------------------------- -->
+    </body>
+
+</html>

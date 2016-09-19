@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new Nik\BlogBundle\NikBlogBundle(),
             new Nik\Home1Bundle\NikHome1Bundle(),
             new Nik\TestBundle\TestBundle(),
+            new Nik\MyBlogBundle\MyBlogBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
