@@ -7,6 +7,7 @@ SITE: http://symfony.com/
 
 
 
+
 INFO:
 
 Installation de symfony:  http://symfony.com/legacy/doc/getting-started/1_4/fr/03-symfony-installation
@@ -23,18 +24,17 @@ https://github.com/NikEurope/Symfony/tree/master/Symfony1
 
 
 
-
 Technologies :
 
 Le blog est responsive et gere l'affichage sur mobile.
 
 Les technologies utilisées :
 
-  Symfony 3 : Pour l'apprentissage du framework
+Symfony 3 : Pour l'apprentissage du framework
   
-  Bootstrap : Pour la chartre graphique ainsi que le reponsive
+Bootstrap : Pour la chartre graphique ainsi que le reponsive
   
-  HTML 5 / CSS 3
+HTML 5 / CSS 3
   
   
 
