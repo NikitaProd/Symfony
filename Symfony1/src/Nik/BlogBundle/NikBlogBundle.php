@@ -1,5 +1,4 @@
 <?php
-
 namespace Nik\BlogBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
