@@ -44,9 +44,10 @@ How to Work with Form Themes
 
 http://symfony.com/doc/current/form/form_themes.html
 
+
 Twig ex: 
 
-<code>
+
 {# app/Resources/views/form/fields.html.twig #}
 {% block form_row %}
 {% spaceless %}
@@ -57,7 +58,7 @@ Twig ex:
     </div>
 {% endspaceless %}
 {% endblock form_row %}
-</code>
+
 
 
 
